@@ -1,4 +1,5 @@
-cambiar los precios de los planes
-ver que los planes sean similares 
-hacer la plantilla de excel 
-modificar el menu de zombra para que se pueda vincular con un excel 
+cambiar los precios de los planes :listo
+ver que los planes sean similares :
+hacer la plantilla de excel :
+modificar el menu de zombra para que se pueda vincular con un excel :
+cambiar especificaciones del premium :

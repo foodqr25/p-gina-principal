@@ -151,7 +151,7 @@
         <article class="card tier">
           <h3>Básico</h3>
           <div class="muted">Ideal para food trucks y cafeterías pequeñas</div>
-          <div class="price" id="p1">$7<span style="font-size:.9rem;color:var(--muted)">/mes</span></div>
+          <div class="price" id="p1">$5.000<span style="font-size:.9rem;color:var(--muted)">/mes</span></div>
           <ul class="list">
             <li class="good">1 menú y 1 QR personalizable</li>
             <li class="good">Hasta 50 productos</li>
@@ -164,7 +164,7 @@
           <span class="badge-pop">Más elegido</span>
           <h3>Pro</h3>
           <div class="muted">Para restaurantes y cafeterías con varias categorías</div>
-          <div class="price" id="p2">$14<span style="font-size:.9rem;color:var(--muted)">/mes</span></div>
+          <div class="price" id="p2">$10.000<span style="font-size:.9rem;color:var(--muted)">/mes</span></div>
           <ul class="list">
             <li class="good">Menús ilimitados</li>
             <li class="good">Fotos y traducciones</li>
@@ -177,7 +177,7 @@
         <article class="card tier">
           <h3>Premium</h3>
           <div class="muted">Para cadenas o quienes necesitan personalización</div>
-          <div class="price" id="p3">$29<span style="font-size:.9rem;color:var(--muted)">/mes</span></div>
+          <div class="price" id="p3">$20.000<span style="font-size:.9rem;color:var(--muted)">/mes</span></div>
           <ul class="list">
             <li class="good">Marca blanca y dominio propio</li>
             <li class="good">Integración con impresoras/kioskos</li>
@@ -244,8 +244,8 @@
 
   <script>
     const prices = {
-      mensual: { p1: 7, p2: 14, p3: 29, suffix: "/mes" },
-      anual:   { p1: 6, p2: 12, p3: 25, suffix: "/mes (facturado anual)" }
+      mensual: { p1: 5000, p2: 10000, p3: 20000, suffix: "/mes" },
+      anual:   { p1: 4000, p2: 8000, p3: 16000, suffix: "/mes (facturado anual)" }
     };
     function setBilling(mode){
       document.getElementById('mly').classList.toggle('active', mode==='mensual');
