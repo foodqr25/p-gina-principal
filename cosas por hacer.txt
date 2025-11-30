@@ -3,3 +3,4 @@ ver que los planes sean similares :
 hacer la plantilla de excel :
 modificar el menu de zombra para que se pueda vincular con un excel :
 cambiar especificaciones del premium :
+botoneas agregar hover :
